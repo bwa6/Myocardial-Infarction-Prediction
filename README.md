@@ -7,7 +7,7 @@ After cleaning the data, I used the dataset to practice supervised learning clas
 
 After developing models with an inadequate recall, I decided to perform feature selection to eliminate features that do not contribute to predicting death.  Using backward selection, I eliminated several features that led to improvements in the AUC of the ROC curve.  I also eliminated a considerable number of features that neither helped nor hurt the AUC.  Ultimately, this led to identifying 16 features that are critical to predicting death.  For the most part, these features relate to the presence of 1) heart problems in the patient's medical history and 2) MI in the left ventricle according to the ECG.  The benefit of feature selection is two-fold.  First, it improved the interpretability of the model by identifying important and irrelevant features.  Second, it improved the accuracy of the model by optimizing the AUC.  The recall/false positive rate of the models before/after feature selection are shown below:
 
-<b>KNN<\b>
+<b>KNN</b>
 Before
 
 

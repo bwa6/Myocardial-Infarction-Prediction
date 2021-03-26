@@ -1,5 +1,5 @@
 # Myocardial-Infarction-Prediction
-Predicting death of patients using data from three days of hospital visits following MI.
+Predicting death of patients using data from three days of hospital visits following myocardial infarction.
 
 This project uses a dataset from the UCI Machine Learning Repository.  The dataset contains data collected from patients over three days at a hospital following an episode of myocardial infarction.  During graduate school, I studied cardiac tissue engineering to create stem cell-derived cardiac tissues that can be implanted on the heart following myocardial infarction, so naturally I took an interest in this dataset.  I was interested in my ability to understand the medical terminology represented by each feature in the dataset to properly clean the data of any missing values.  I researched the features to recognize relationships among them to properly impute missing data.
 
